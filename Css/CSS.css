@@ -130,13 +130,12 @@ line-height: normal;
     h2{
     font-size: 18px;
     }
-  h4{
-    top: 1354px;
-left: 438px;
+  h3{
+   top: 1354px;
+left: 143px;
 width: 279px;
 height: 279px;
-/* UI Properties */
-background: transparent url('img/100.png') 0% 0% no-repeat padding-box;
+background: transparent url('img/333'.png') 0% 0% no-repeat padding-box;
 opacity: 1;
   }
   h5{
