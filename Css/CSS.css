@@ -1,14 +1,11 @@
 body{
-display: flex;
-height: 279px;
-  width:279;
-  top: 1354px;
-  left: 143px;
-padding: 90px 150px 357px 150px;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
-background: #FFF;
+top: 0px;
+left: 0px;
+width: 1450px;
+height: 4195px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 main{
