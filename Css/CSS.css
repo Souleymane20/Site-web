@@ -34,18 +34,13 @@ margin-top: 25px;
 }
 
 .card-main{
-display: flex;
-padding-bottom: 0px;
-flex-direction: column;
-align-items: center;
-gap: 4px;
-flex: 1 0 0;
-border-radius: 20px;
-background: #FFF;
-min-width: 100px;
+top: 1354px;
+left: 143px;
+width: 279px;
+height: 279px;
 
-/* Shadow/Card */
-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+background: transparent url('img/333'.png') 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 .Rectangle20{
