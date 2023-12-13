@@ -22,7 +22,7 @@ background: transparent url('img/333'.png') 0% 0% no-repeat padding-box;
 opacity: 1;
 display: inline-block;
 }
-div2{
+.image2 {
     top: 1354px;
 left: 143px;
 width: 279px;
