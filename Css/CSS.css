@@ -19,6 +19,7 @@ width: 279px;
 height: 279px;
 text-align: center;
 margin: 10px;
+z-index: 99;
 }
 
 .fig2 {
