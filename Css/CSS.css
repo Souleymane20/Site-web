@@ -24,7 +24,7 @@ display: inline-block;
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 gap: 10px;
  text-align: center;
-    margin: 10px
+    margin: 10px;
 }
 .image2 {
     top: 1354px;
@@ -34,6 +34,11 @@ height: 279px;
 /* UI Properties */
 background: transparent url('img/333'.png') 0% 0% no-repeat padding-box;
 opacity: 1;
+display: inline-block;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 10px;
+ text-align: center;
+    margin: 10px;
 }
 main{
 padding: 30px;
