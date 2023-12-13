@@ -9,7 +9,7 @@ height: 4195px;
     z-index: 1450;
 }
 .fig1{
-position : absolute;
+position: absolute;
 top: 1354px;
 left: 438px;
 width: 279px;
@@ -17,6 +17,7 @@ height: 279px;
 margin: 10px;
 position: absolute;
 z-index: 99;
+left: 300px;
 }
 
 .fig2 {
