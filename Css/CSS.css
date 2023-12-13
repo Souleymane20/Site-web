@@ -27,6 +27,14 @@ height: 279px;
 position: absolute;
 left: 400px;
 }
+.fig3{
+position: absolute;
+left: 500px;
+}
+.fig4{
+position: absolute;
+left: 600px;
+}
 main{
 padding: 30px;
 align-self: stretch;
