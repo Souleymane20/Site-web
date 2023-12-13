@@ -4,11 +4,13 @@ left: 0px;
 width: 1450px;
 height: 4195px;
 }
-.Rectangle20{
+.Rectangle20 {
     top: 353px;
     left: 54px;
     width: 1361px;
     height: 405px;
+    text-align: center;
+    margin: 10px;
 }
 div2{
     top: 1354px;
