@@ -12,6 +12,16 @@ height: 4195px;
     text-align: center;
     margin: 10px;
 }
+.Rectangle20 {
+    top: 1354px;
+left: 143px;
+width: 279px;
+height: 279px;
+/* UI Properties */
+background: transparent url('img/333'.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+display: inline-block;
+}
 div2{
     top: 1354px;
 left: 143px;
