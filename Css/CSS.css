@@ -23,6 +23,8 @@ opacity: 1;
 display: inline-block;
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 gap: 10px;
+ text-align: center;
+    margin: 10px
 }
 .image2 {
     top: 1354px;
