@@ -9,19 +9,17 @@ height: 4195px;
     z-index: 1450;
 }
 .fig1{
-position: absolute;
 top: 1354px;
 left: 438px;
 width: 279px;
 height: 279px;
 margin: 10px;
 position: absolute;
-z-index: 00;
+z-index: 20;
 left: 300px;
 }
 
 .fig2{
-position: absolute;
 top: 1354px;
 left: 700 px;
 width: 279px;
