@@ -13,12 +13,12 @@ height: 4195px;
     margin: 10px;
 }
 .fig1{
-    top: 1354px;
+top: 1354px;
 left: 438px;
 width: 279px;
 height: 279px;
-text-align: center;
 margin: 10px;
+position: absolute;
 z-index: 99;
 }
 
