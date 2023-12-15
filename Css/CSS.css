@@ -1,214 +1,36 @@
-body{
-top: 0px;
-left: 0px;
-width: 1450px;
-height: 4195px;
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
-.Rectangle20 {
-    position : absolute;
-    z-index: 1450;
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
+
 .card-main {
-            display: flex; /* Utilisation de flexbox pour aligner les enfants en ligne */
-            margin-bottom: 20px; /* Espacement entre les cartes */
-        }
-
-        .fig1, .fig2 {
-            max-width: 100%; /* Pour s'assurer que les images ne dépassent pas la largeur du conteneur */
-            height: auto; /* Pour maintenir le rapport hauteur/largeur de l'image */
-        }
-
-        .card-main_text {
-            margin-left: 10px; /* Espacement entre l'image et le texte */
-        }
-}
-.fig3{
-position: absolute;
-left: 500px;
-}
-.fig4{
-position: absolute;
-left: 600px;
-}
-main{
-padding: 30px;
-align-self: stretch;
-border-radius: 15px;
-background: var(--Grey, #F2F2F2);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
 }
 
-h1{
-
-top: 231px;
-left: 140px;
-width: 10000px;
-height: 80px;
-text-align: left;
-font: normal normal bold 60px/80px Segoe UI;
-letter-spacing: 0px;
-color: #000000;
-opacity: 0.5;
+.card-main img {
+    max-width: 100%;
+    height: auto;
 }
 
-.bloc{
-display: flex;
-align-items: flex-start;
-gap: 30px;
-align-self: stretch;
-margin-top: 25px;
+.card-main_text {
+    margin-top: 10px;
 }
 
-.card-main{
-top: 1354px;
-left: 143px;
-width: 279px;
-height: 279px;
-
-background: transparent url('img/333'.png') 0% 0% no-repeat padding-box;
-opacity: 1;
+.bloc_rouge {
+    background-color: red;
+    height: 50px;
+    margin-top: 20px;
 }
-
-.Rectangle20{
-height: 124px;
-align-self: stretch;
-border-radius: 20px 20px 0px 0px;
-border: 5px solid var(--White, #FFF);
-
-}
-
-.card-main_text{
-align-self: stretch;
-color: #000;
-
-/* Card/Title */
-font-family: Raleway;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 15px;
-}
-
-h2{
-margin-top: 0;
-margin-bottom: -5px;
-font-size: 1.3vw;
-font-weight: bold;
-}
-
-p{
-font-size: 1.1vw;
-font-weight: 400;
-}
-
-.notation{
-align-self: stretch;
-margin-left: 15px;
-margin-top: -10px;
-margin-bottom: 15px;
-}
-
-.fa-star {
-color: #0065FC;
-}
-
-.grey {
-color: #7c77776b;
-}
-
-h3{
-color: #000;
-
-/* Title/Filter */
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-
-@media (max-width: 768px){
-    body{
-    padding: 30px 10px 0px 10px;
-    }
-
-    main{
-    padding: 30px 10px 10px 10px;
-    }
-    
-    .bloc{
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    }
-
-    .card-main{
-    min-width: 250px;
-    max-width: 400px;
-    margin: auto;
-    }
-
-    h2{
-    font-size: 18px;
-    }
-  h3{
-   top: 279px;
-left: 143px;
-width: 279px;
-height: 279px;
-background: transparent url('img/333'.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-  }
-  h4{
-    top: 1354px;
-left: 438px;
-width: 279px;
-height: 279px;
-background: transparent url('img/100.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-  }
-  h6 {
-    top: 1354px;
-left: 1028px;
-width: 279px;
-height: 279px;
-/* UI Properties */
-background: transparent url('img/jl-dessin-d-ornement-motif-d-arbre-colore-pour-mai(1).png') 0% 0% no-repeat padding-box;
-opacity: 1;
-  }
-    h7{
-        top: 1881px;
-left: 143px;
-width: 279px;
-height: 279px;
-  h8{
-    top: 1886px;
-left: 438px;
-width: 280px;
-height: 280px;
-  }
-h9{
-    top: 1885px;
-left: 733px;
-width: 280px;
-height: 280px;
-}
-h10{
-    top: 1886px;
-left: 1028px;
-width: 279px;
-height: 279px;
-}
-  h12{
-  top: 2522px;
-left: 143px;
-width: 279px;
-height: 279px;
-/* UI Properties */
-background: transparent url('img/Bili_Bidjocka.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-
-    p{
     font-size: 14px;
     }
 
