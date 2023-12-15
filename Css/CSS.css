@@ -4,14 +4,16 @@ body {
 }
 
 main {
-
+    max-width: 1200px;
     margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .card-main {
+    flex: 1 0 calc(25% - 20px);
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
@@ -21,11 +23,6 @@ main {
     max-width: 100%;
     height: auto;
 }
-
-.card-main_text {
-    margin-top: 10px;
-}
-
 
 .card-main_text {
     margin-top: 10px;
