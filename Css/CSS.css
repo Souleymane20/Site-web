@@ -6,14 +6,12 @@ body {
 main {
     max-width: 1200px;
     margin: 20px auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    justify-content: space-between;
 }
 
 .card-main {
-    flex: 1 0 calc(25% - 20px);
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
@@ -26,6 +24,12 @@ main {
 
 .card-main_text {
     margin-top: 10px;
+}
+
+.bloc_rouge {
+    background-color: red;
+    height: 50px;
+    margin-top: 20px;
 }
 
 .bloc_rouge {
