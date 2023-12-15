@@ -8,22 +8,19 @@ height: 4195px;
     position : absolute;
     z-index: 1450;
 }
-.fig1{
-top: 1354px;
-width: 279px;
-height: 279px;
-margin: 10px;
-position: absolute;
-z-index: 20;
-left: 300px;
-}
+.card-main {
+            display: flex; /* Utilisation de flexbox pour aligner les enfants en ligne */
+            margin-bottom: 20px; /* Espacement entre les cartes */
+        }
 
-.fig2{
-top: 1354px;
-width: 279px;
-height: 279px;
-position: absolute;
-left: 400px;
+        .fig1, .fig2 {
+            max-width: 100%; /* Pour s'assurer que les images ne dépassent pas la largeur du conteneur */
+            height: auto; /* Pour maintenir le rapport hauteur/largeur de l'image */
+        }
+
+        .card-main_text {
+            margin-left: 10px; /* Espacement entre l'image et le texte */
+        }
 }
 .fig3{
 position: absolute;
