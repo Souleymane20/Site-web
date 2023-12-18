@@ -12,105 +12,382 @@
 </head>
 </head>
 
-    <body>
-        <main>
-            <header class="topbar"></header>
-        
-            <h1>Découvez l'afrique sur toutes ses facettes</h1>
-                    <div class="card-main">
-                        <img class="Rectangle20" src="Image/Image banniere.jpg" alt="banniere"> </div>
-                        <div class="card-main_text">
-                            <h2>ART CONTELPORAIN</h2>
-                            <p>Envi de savoir en quoi consiste l'art contemporain africain? <br> Vous aimerez découvrir des oeuvres uniques, spécialement séléctionnés, situé partout dans le monde ? <br> Nous avons rassemblé pour vous les meilleures oeuvre de l'Afrique</p>
-                        </div>
-                        <div class="notation">
-                            
-                        </div>
+   <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
-                    <div class="card-main">
-                        <img class="fig1" src="Image/Soie Rouge.jpg" alt="Soie Rouge">
-                        <div class="card-main_text">
-                            <h3>Soie Rouge</h3>
-                            <p>43 rue Gagnhi <br> 99327 Bénin <br> 2050€ <br>  <br> like </p>
-                        </div>
-                        
+        <!-- Ajout des cartes -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                   <img class="fig1" src="Image/Soie Rouge.jpg" alt="Soie Rouge"> 
+                    <div class="card-body">
+                        <p class="card-text">Soie Rouge</p>
                     </div>
+                    <p class="card-text">43 rue Gagnhi <br> 99327 Bénin <br> 2050€ <br>  <br> like</p>
+                </div>
+            </div>
 
-                    <div class="card-main">
-                        <img class="fig2" src="Image/Maasai.jpg" alt="Maasai">
-                        <div class="card-main_text">
-                            <h4> Maasai</h4>
-                            <p>Maasai<br>94rueKarine<br>99332<br>1099€</p>
-                        </div>
-                        <div class="card-main">
-                            <img class="fig3" src="Image/Maman Africa.jpg" alt="Maman Africa">
-                            <div class="card-main_text">
-                                <h5> Maman Africa</h5>
-                                <p>Maman Africa<br>350 avenue Pentagone<br>1000Bruxelles<br>560€</p>
-                            </div>
-                            
-                            <div class="card-main">
-                                <img class="fig4" src="Image/Arbre de vie.jpg" alt="Arbre de vie">
-                                <div class="card-main_text">
-                                    <h6> Arbre de vie</h6>
-                                    <p>Arbre de vie<br>52 BD Rhode Island<br>02940 USA<br>3500€</p>
-                                </div>
+            <div class="col-md-3">
+                <div class="card">
+                <img src="Image/Maasai.jpg" alt="Maasai">
+                    <div class="card-body">
+                        <p class="">Maasai</p>
+                         </div>
+                    <p class="card-text">94rueKarine<br>99332<br>1099€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                  <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                  <div class="card-body">
+                        <p class="card-text">Texte pour la carte 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                  <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                  <div class="card-body">
+                        <p class="card-text">Texte pour la carte 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                  <div class="card-body">
+                      <p class="card-text">Texte pour la carte 1</p>
+                  </div>
+                  <p class="card-text">je suis un detail</p>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                  <div class="card-body">
+                      <p class="">Texte pour la carte 2</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                      <p class="card-text">Texte pour la carte 3</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                      <p class="card-text">Texte pour la carte 4</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                    <p class="card-text">Texte pour la carte 1</p>
+                </div>
+                <p class="card-text">je suis un detail</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                    <p class="">Texte pour la carte 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                    <p class="card-text">Texte pour la carte 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                    <p class="card-text">Texte pour la carte 4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+          <div class="card">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+              <div class="card-body">
+                  <p class="card-text">Texte pour la carte 1</p>
+              </div>
+              <p class="card-text">je suis un detail</p>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+                  <p class="">Texte pour la carte 2</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+                  <p class="card-text">Texte pour la carte 3</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.6nsKk7mIkSKvYZD_APa8-AHaFk&pid=Api&P=0&h=180" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+                  <p class="card-text">Texte pour la carte 4</p>
+              </div>
+          </div>
+      </div>
+  </div>
+    </div>
 
-                 <div class="card-main">
-                                <img class="fig5" src="Image/Mon village.jpg" alt="Mon village">
-                                <div class="card-main_text">
-                                    <h7> Mon village</h7>
-                                    <p>13 rue lambanyi <br>99330 Guinée<br>1500€</p>
-                                </div>
-                                <div class="card-main">
-                                    <img class="fig6" src="Image/Diamant Noir.jpg" alt="Diamant Noir">
-                                    <div class="card-main_text">
-                                        <h8>Diamand Noir</h8>
-                                        <p>18 avenue Almandies<br>99341 Sénegal<br>4050€</p>
-                                    </div>
-                                    <div class="card-main_text">
-                                        <img class="fig7" src="Image/Mangui.jpg" alt="Mangui">
-                                        <div class="card-main_text">
-                                            <h9> Mangui</h9>
-                                            <p>99 avenue Marshal<br>99334 Tchad<br>950€</p>
-                                        </div>
-                                        <div class="card-main">
-                                            <img class="fig8" src="Image/Elephan d'Afrique.jpg" alt="Elephant d'Afrique">
-                                            <div class="card-main_text">
-                                                <h10>Elephant d'Afrique</h10>
-                                                <p>331 rue Jawaher<br>99350 Maroc<br>790€</p>
-                                            </div>     
-                                            
-                                            <div class="card-main_text">
-                                                <h11>Nos artiste</h11>
-                                           </div>
-                                            <div class="card-main"> 
-                                                    <img class="fig9" src="Image/Bili_Bidjocka.jpg" alt="Bili Bidjocka"></div>
-                                                    <div class="card-main_text">
-                                                     <h12> Billi BIDJOCKA</h12>
-                                            <p>Bili Bidjocka est un<br>artiste peintre  Camerounais<br>né à Douala en 1962, qui<br>vit à Paris depuis l'âge de 12 ans.<br> Il travaille entre Paris, Bruxelles et New York</p>
-                                            </div>    
-                                            <div class="card-main">    
-                                                   <img class="fig10" src="Image/390px-Marlene_Dumas(1).jpg" alt="Marlene Dumas"></div>
-                                                    <div class="card-main_text">
-                                                    <h13> Marlene Dumasè</h13>
-                                             <p>Marlene Dumas née le 3 aoûte 1953 au Cap<br>est une artiste neerlandaise originaire d'Afrique du Sud"</p>
-                                              </div>     
-                                              <div class="card-main">
-                                                    <img class="fig11" src="Image/Charly_D_Almeida.webp.png" alt="Charly d'Almmédia"></div>
-                                                    <div class="card-main_text">
-                                                      <h14> Charly d'Almmédia</h14>
-                                             <p>Charly d'Almmédia est un<br>artiste peintre sculpteur contemporain béninois, <br>né le 28/01/1968 à Cotonou,<br>Il utilise principalement des matériaux de récupération pour créerses oeuvres.</p>
-                                              </div>     
-                                            <div class="card-main">
-                                                     <img class="fig13" src="Image/Bertiers.jpg" alt="Joseph Bertiers"></div> 
-                                                      <div class="card-main_text">
-                                                     <h15> Joseph Bertiers </h15>
-                                                  <p>Joseph Bertiers né en 1963 à Nairobi<br>est un artiste contemporain kényan, peintre<br>dontl'oeuvre explore les ambiguités de la<br>condition humaineet dissèque l'actualité internationale."</p>
-                                            </div> 
-                                            <div class="bloc_rouge"> </div> 
-        
-        </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js" integrity="sha384-ZVYRS1Jbd+HQQvFqA+4QWY5E3wC93fb9Qe56S86WPjZur3LHqUqHV2czC6Pm/sBf" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Footer -->
+<footer class="bg-body-tertiary text-center">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example24" class="form-control" />
+              <label class="form-label" for="form5Example24">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
+        harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Djei  </a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
     </body>
 </html>
