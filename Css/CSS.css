@@ -20,3 +20,24 @@
         }
 
 
+        .image {
+            width: 100px; /* Remplacez la valeur par la largeur souhaitée */
+            height: auto; /* Cela permet de conserver les proportions de l'image */
+        }
+
+        .nos_artistes {
+         text-align: center;
+         padding-top: 10px; 
+         margin: 15px;
+         margin-left: 10px;
+         align-items: center;
+        
+        }
+        .card{
+            margin: 15px;
+            padding: 15px 20px;
+        }
+        .image { 
+            padding: 15px;
+        }
+
